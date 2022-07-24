@@ -1,6 +1,6 @@
 {
   "Creator": "theBest_123",
-  "Date": 1658682038046,
+  "Date": 1658682394619,
   "AirStuck": {
     "toggled": false,
     "bypass": false,
@@ -100,7 +100,7 @@
     }
   },
   "ChestStealer": {
-    "toggled": false,
+    "toggled": true,
     "bypass": true,
     "values": {
       "Start Delay": "150",
@@ -188,7 +188,7 @@
     "toggled": false,
     "bypass": true,
     "values": {
-      "Mode": "Minemora",
+      "Mode": "Vanilla",
       "Verus b3733-Mode": "",
       "Verus-Damage-Speed": "1.0",
       "MegaCraft-Speed": "1.0",
@@ -203,7 +203,7 @@
       "Intave13.0.8-BoostMotion": "1.49",
       "Spartan406-Slowness": "0.6",
       "Spartan406-Boost": "0.01",
-      "Vanilla-Speed": "0.05",
+      "Vanilla-Speed": "0.01",
       "Vanilla-SpigotFlyKickBypass": "false",
       "Verus b1187-Boost": "false",
       "FastStop": "true",
@@ -615,7 +615,7 @@
     "toggled": false,
     "bypass": true,
     "values": {
-      "Mode": "NCP3.16.0-YPort",
+      "Mode": "CubeCraft",
       "Timer-Speed": "1.0",
       "Legit-Strafing": "false",
       "Timer-Randomizing": "false",
