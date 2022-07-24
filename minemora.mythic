@@ -1,6 +1,6 @@
 {
-  "Creator": "Kroko",
-  "Date": 1650734364551,
+  "Creator": "theBest_123",
+  "Date": 1658682038046,
   "AirStuck": {
     "toggled": false,
     "bypass": false,
@@ -11,17 +11,13 @@
     "bypass": false,
     "values": {}
   },
-  "AntiAim": {
-    "toggled": false,
-    "bypass": false,
-    "values": {}
-  },
   "AntiBot": {
     "toggled": true,
     "bypass": true,
     "values": {
       "Health NaN Check": "false",
       "GroundCheck": "false",
+      "GroundSpawnCheck": "false",
       "Name Check": "false",
       "TeamColorCheck": "false",
       "TeamColorRGB": "-1",
@@ -29,35 +25,12 @@
       "HitBefore": "false",
       "TabListCheck": "true",
       "PingCheck": "false",
-      "StaticPing": "1",
+      "StaticPing": "0",
       "SkinCheck": "false",
       "DuplicateEntityCheck": "false",
-      "DuplicateCheckMode": "Name",
-      "ValidUUIDCheck": "false",
-      "CanDamagedCheck": "false",
       "Sound Check": "false",
-      "Vanish Check": "false",
-      "Latency Check": "false",
       "Rotation Check": "false",
-      "Copy Name Check": "false",
       "Ticks Existed": "0"
-    }
-  },
-  "AntiCactus": {
-    "toggled": false,
-    "bypass": false,
-    "values": {}
-  },
-  "AntiEnderman": {
-    "toggled": false,
-    "bypass": false,
-    "values": {}
-  },
-  "AntiFire": {
-    "toggled": false,
-    "bypass": false,
-    "values": {
-      "Packets": "15"
     }
   },
   "AntiHunger": {
@@ -112,10 +85,7 @@
   "Blink": {
     "toggled": false,
     "bypass": false,
-    "values": {
-      "DismountVehicle": "true",
-      "OnlyMovePackets": "true"
-    }
+    "values": {}
   },
   "BowAimBot": {
     "toggled": false,
@@ -130,16 +100,15 @@
     }
   },
   "ChestStealer": {
-    "toggled": true,
+    "toggled": false,
     "bypass": true,
     "values": {
       "Start Delay": "150",
-      "Grab Delay": "150",
+      "Grab Delay": "77",
       "Make it Intelligent": "true",
       "StackItems": "true",
-      "RandomPick": "true",
-      "Auto Close": "true",
-      "Simulate Mouse": "false"
+      "RandomPick": "false",
+      "Auto Close": "true"
     }
   },
   "CivBreak": {
@@ -157,23 +126,12 @@
       "Intave13-Range": "10"
     }
   },
-  "Debug": {
-    "toggled": false,
-    "bypass": false,
-    "values": {}
-  },
-  "Debug2": {
-    "toggled": false,
-    "bypass": false,
-    "values": {}
-  },
   "Disabler": {
     "toggled": false,
     "bypass": false,
     "values": {
       "Mode": "Accurancy",
-      "CubeCraft-Semi Disabler": "false",
-      "CubeCraft-Strafe Disabler": "true",
+      "Testdisabler": "true",
       "NCP-Timer Disabler": "false",
       "Redesky-Packet Kick": "false",
       "Accurancy-Full": "false",
@@ -192,8 +150,7 @@
     "values": {
       "Mode": "Intave13",
       "Intave13-Height": "3.0",
-      "Matrix6.6.1-Boost": "1.9",
-      "Matrix6.6.1-BoostY": "1.0"
+      "Matrix6.6.1-Boost": "1.9"
     }
   },
   "FastBow": {
@@ -214,15 +171,6 @@
       "Packets": "100"
     }
   },
-  "FastClimbing": {
-    "toggled": true,
-    "bypass": true,
-    "values": {
-      "Mode": "Vanilla",
-      "Up Motion": "0.23",
-      "Down Motion": "-3.37"
-    }
-  },
   "FastPlace": {
     "toggled": false,
     "bypass": false,
@@ -236,24 +184,11 @@
       "inAir": "false"
     }
   },
-  "FastVillagerShop": {
-    "toggled": false,
-    "bypass": false,
-    "values": {}
-  },
   "Fly": {
     "toggled": false,
     "bypass": true,
     "values": {
       "Mode": "Minemora",
-      "NCP-Mode": "",
-      "Intave-Version": "",
-      "Spartan-Version": "",
-      "AAC-Version": "",
-      "Verus-Version": "",
-      "Vanilla-Mode": "",
-      "Hypixel-Mode": "",
-      "Rededark-Mode": "",
       "Verus b3733-Mode": "",
       "Verus-Damage-Speed": "1.0",
       "MegaCraft-Speed": "1.0",
@@ -269,7 +204,6 @@
       "Spartan406-Slowness": "0.6",
       "Spartan406-Boost": "0.01",
       "Vanilla-Speed": "0.05",
-      "Vanilla-Motion-Speed": "0.25",
       "Vanilla-SpigotFlyKickBypass": "false",
       "Verus b1187-Boost": "false",
       "FastStop": "true",
@@ -343,13 +277,6 @@
       "RotationSpeed": "5.0"
     }
   },
-  "Inventory+": {
-    "toggled": false,
-    "bypass": false,
-    "values": {
-      "Only send open inventory when needed": "true"
-    }
-  },
   "InventoryCleaner": {
     "toggled": true,
     "bypass": true,
@@ -391,12 +318,11 @@
       "CPS": "20.0",
       "Cps-Mode": "Randomize",
       "SmoothCPS-AfterHit": "false",
-      "Perfect Hit": "false",
       "NoTimerAttack": "false",
       "SmoothCPS-CPS-Speed": "0.5",
       "SmoothCPS-RandomStrength": "0.85",
       "SmoothCPS-Randomizing": "false",
-      "Range": "3.31",
+      "Range": "6.0",
       "PreAim Range": "1.5",
       "TargetMode": "Switch",
       "PreferType": "",
@@ -404,7 +330,6 @@
       "Criticals": "false",
       "Criticals-Mode": "",
       "AutoBlock": "false",
-      "SmartBlock": "false",
       "AutoBlock-Mode": "",
       "Player": "true",
       "Animals": "false",
@@ -412,13 +337,15 @@
       "Mobs": "false",
       "Ignore Death": "true",
       "Ignore Invisible": "true",
-      "Swing-Mode": "Normal",
+      "NoSwing": "false",
+      "NoSwing-Mode": "",
       "Heuristics": "true",
       "Prediction": "true",
       "RayCast": "true",
       "StaticPitch": "false",
       "Pitch": "-90",
       "MouseFix": "true",
+      "Mouse Speed": "5.0",
       "MoveFix": "true",
       "SilentMoveFix": "true",
       "AttackDelay": "true",
@@ -449,7 +376,6 @@
       "Near Rotate": "true",
       "Near Distance": "0.5",
       "Smooth Rotations": "false",
-      "Rotation Fix": "false",
       "FOV": "180",
       "Rotation Speed": "180",
       "HurtTime": "10"
@@ -471,16 +397,8 @@
       "Redesky2021-Motion": "0.65",
       "Redesky2021-Boost": "0.1",
       "Redesky2021-Speed": "1.5",
-      "Disable Velocity": "false",
-      "SpoofY": "false",
-      "AirBob": "false",
-      "Static Camera Pitch": "false"
+      "Disable Velocity": "false"
     }
-  },
-  "MurderScanner": {
-    "toggled": false,
-    "bypass": false,
-    "values": {}
   },
   "NoClip": {
     "toggled": false,
@@ -491,9 +409,7 @@
     "toggled": false,
     "bypass": false,
     "values": {
-      "Mode": "Vanilla",
-      "Motion": "0.15",
-      "Sneak": "false"
+      "Mode": "Vanilla"
     }
   },
   "NoFall": {
@@ -533,7 +449,6 @@
       "Speed": "1.0",
       "CanSprint": "true",
       "OnlySword": "false",
-      "Only Air": "false",
       "Spoofing": "false",
       "Spoof-Mode": "NCP"
     }
@@ -567,10 +482,10 @@
     "values": {}
   },
   "Range": {
-    "toggled": false,
+    "toggled": true,
     "bypass": false,
     "values": {
-      "Range": "3.0"
+      "Range": "6.0"
     }
   },
   "Regen": {
@@ -600,11 +515,7 @@
       "Smooth Delay-RandomStrength": "0.85",
       "Smooth Delay-Randomizing": "false",
       "Boost Mode": "None",
-      "Timer-Mode": "",
-      "Timer-Speed": "1.0",
-      "Motion-Mode": "",
       "Motion-Speed": "1.0",
-      "Modify In Air": "false",
       "Blocks": "0",
       "Diagonal": "true",
       "UpScaffold": "true",
@@ -612,12 +523,8 @@
       "CanUp-Check": "true",
       "DownScaffold": "false",
       "WorldHeightCheck": "true",
-      "Drag Blocks to Hotbar": "false",
-      "Spoof Inventory": "false",
-      "Block Movement": "false",
       "Tower": "false",
       "Tower-Mode": "",
-      "Tower-Damage Motion": "1.0",
       "Tower-Motion": "0.42",
       "Tower-VerusDisabler": "false",
       "Tower-WhileMoving": "false",
@@ -633,10 +540,8 @@
       "AutoJump": "true",
       "Jump-Motion": "0.42",
       "Speed Boost": "0.25",
-      "Jump Delay": "false",
       "NoSwing": "true",
       "NoSwing-Mode": "Packet",
-      "Edge Check": "false",
       "NecessaryPlacement": "false",
       "Necessary Chance": "69",
       "BlockCheck": "true",
@@ -710,43 +615,14 @@
     "toggled": false,
     "bypass": true,
     "values": {
-      "Mode": "NCP",
-      "CubeCraft-Mode": "",
-      "NCP-Version": "3.16.0",
-      "NCP3.16.0-Mode": "Bhop",
-      "Spartan-Version": "",
-      "AAC-Version": "",
-      "Mineplex-Mode": "",
-      "Intave-Version": "",
-      "Hypixel-Mode": "",
-      "Hypixel-Ground-Strafe-TimerSpeed": "1.0",
-      "Hypixel-Ground-Strafe-Motion": "0.298",
-      "Vanilla-Mode": "",
-      "Rededark-Mode": "",
-      "Verus-Mode": "",
+      "Mode": "NCP3.16.0-YPort",
       "Timer-Speed": "1.0",
-      "Mineplex-LongJump-Motion": "0.43",
-      "Mineplex-LongJump-Collide-Motion": "0.28",
-      "Mineplex-LongJump-Stops": "false",
-      "Mineplex-LongJump-NormalJump": "false",
-      "Mineplex-LongJump-JumpMotion": "0.34",
-      "Mineplex-LongJump-JumpBoost": "false",
-      "Mineplex-LongJump-JumpBoostMotion": "0.03",
       "Legit-Strafing": "false",
       "Timer-Randomizing": "false",
       "Timer-RandomizeRange": "1.0",
-      "Custom-Speed": "1.0",
-      "Custom-Strafe": "false",
-      "Custom-Ground-Strafe": "false",
-      "Custom-AutoJump": "false",
-      "Custom-MotionY": "0.42",
-      "Custom-Ground-Timer": "1.0",
-      "Custom-Air-Timer": "1.0",
       "AAC4-BoostSpeed": "50.0",
       "AAC4-SlowingSpeed": "0.1",
-      "AAC4-Steps": "3",
-      "Block Jumping": "true",
-      "SpoofY": "false"
+      "AAC4-Steps": "3"
     }
   },
   "Spider": {
@@ -780,8 +656,7 @@
     "bypass": true,
     "values": {
       "Mode": "Intave13",
-      "StepHeight": "4.0",
-      "Matrix6.6.1-Boost": "true"
+      "StepHeight": "4.0"
     }
   },
   "SuperHit": {
@@ -792,14 +667,8 @@
       "StepDistance": "6",
       "AllowGround": "false",
       "Jump": "false",
-      "Teleport Back": "true",
       "Mode": "Vanilla"
     }
-  },
-  "SwingFixer": {
-    "toggled": false,
-    "bypass": false,
-    "values": {}
   },
   "TargetStrafe": {
     "toggled": false,
@@ -816,6 +685,78 @@
       "Karhu2.1.9 163-PRE Instant": "false"
     }
   },
+  "TestAura": {
+    "toggled": false,
+    "bypass": false,
+    "values": {
+      "HitChance": "100",
+      "OnlyWhenNotRayCast": "false",
+      "CPS": "12.0",
+      "Cps-Mode": "Randomize",
+      "SmoothCPS-AfterHit": "false",
+      "NoTimerAttack": "false",
+      "SmoothCPS-CPS-Speed": "0.5",
+      "SmoothCPS-RandomStrength": "0.85",
+      "SmoothCPS-Randomizing": "true",
+      "Range": "3.0",
+      "PreAim Range": "1.5",
+      "TargetMode": "Single",
+      "PreferType": "Distance",
+      "Switch Delay": "0",
+      "Criticals": "false",
+      "Criticals-Mode": "onGround",
+      "AutoBlock": "false",
+      "AutoBlock-Mode": "Intave",
+      "Player": "true",
+      "Animals": "false",
+      "Villager": "false",
+      "Mobs": "false",
+      "Ignore Death": "true",
+      "Ignore Invisible": "true",
+      "NoSwing": "false",
+      "NoSwing-Mode": "Vanilla",
+      "Heuristics": "false",
+      "Prediction": "false",
+      "RayCast": "false",
+      "StaticPitch": "false",
+      "Pitch": "-90",
+      "MouseFix": "true",
+      "Mouse Speed": "5.0",
+      "MoveFix": "false",
+      "SilentMoveFix": "false",
+      "AttackDelay": "true",
+      "RightAttackPacketOrdering": "true",
+      "ThroughWalls": "false",
+      "ThroughWalls Range": "3.0",
+      "HitWhileRespawnScreen": "false",
+      "NoInvAttack": "true",
+      "CloseInventory": "false",
+      "EatAttack": "false",
+      "UseAttack": "false",
+      "PreAimAttack": "false",
+      "KeepCPS": "true",
+      "SprintReset": "true",
+      "Haze Range": "false",
+      "Haze Range Adjustment": "0.5",
+      "Max Haze Range": "1.0",
+      "Rotations": "true",
+      "Clamp Yaw": "false",
+      "A3Fix": "true",
+      "ResetRotation": "false",
+      "Reset-Mode": "Silent",
+      "BestVector": "true",
+      "Inaccuracy": "0.0",
+      "LockView": "false",
+      "Necessary Rotations": "false",
+      "Necessary Mode": "Both",
+      "Near Rotate": "false",
+      "Near Distance": "0.5",
+      "Smooth Rotations": "false",
+      "FOV": "180",
+      "Rotation Speed": "180",
+      "HurtTime": "10"
+    }
+  },
   "VClip": {
     "toggled": false,
     "bypass": false,
@@ -828,16 +769,12 @@
     "bypass": true,
     "values": {
       "Mode": "Packet",
-      "Matrix6.6.1-Mode": "Reverse",
       "Cancel": "true",
       "Cancel Explosion": "true",
-      "Detect Staff Velocity": "false",
       "Vertical": "0",
       "Horizontal": "0",
-      "Min Hurt Time": "0",
-      "Max Hurt Time": "10",
-      "Ground Spoof": "false",
-      "Intave14.1.2-Improve": "false"
+      "Intave14.1.2-Improve": "false",
+      "BackToBlock-HurtTime": "5"
     }
   },
   "WallSpeed": {
@@ -845,6 +782,19 @@
     "bypass": false,
     "values": {
       "Mode": "Intave13"
+    }
+  },
+  "kein rückstoss": {
+    "toggled": false,
+    "bypass": false,
+    "values": {
+      "Mode": "Packet",
+      "Cancel": "true",
+      "Cancel Explosion": "false",
+      "Vertical": "0",
+      "Horizontal": "0",
+      "Intave14.1.2-Improve": "true",
+      "BackToBlock-HurtTime": "5"
     }
   }
 }
