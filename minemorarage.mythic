@@ -1,6 +1,6 @@
 {
   "Creator": "theBest_123",
-  "Date": 1658683210892,
+  "Date": 1658762211948,
   "AirStuck": {
     "toggled": false,
     "bypass": false,
@@ -88,7 +88,7 @@
     "values": {}
   },
   "BowAimBot": {
-    "toggled": false,
+    "toggled": true,
     "bypass": false,
     "values": {
       "OnlyPlayers": "true",
@@ -104,7 +104,7 @@
     "bypass": true,
     "values": {
       "Start Delay": "150",
-      "Grab Delay": "77",
+      "Grab Delay": "74",
       "Make it Intelligent": "true",
       "StackItems": "true",
       "RandomPick": "false",
@@ -188,7 +188,7 @@
     "toggled": false,
     "bypass": true,
     "values": {
-      "Mode": "Vanilla",
+      "Mode": "Hypixel20220104",
       "Verus b3733-Mode": "",
       "Verus-Damage-Speed": "1.0",
       "MegaCraft-Speed": "1.0",
@@ -203,7 +203,7 @@
       "Intave13.0.8-BoostMotion": "1.49",
       "Spartan406-Slowness": "0.6",
       "Spartan406-Boost": "0.01",
-      "Vanilla-Speed": "0.01",
+      "Vanilla-Speed": "0.05",
       "Vanilla-SpigotFlyKickBypass": "false",
       "Verus b1187-Boost": "false",
       "FastStop": "true",
@@ -539,7 +539,7 @@
       "SameY": "true",
       "AutoJump": "true",
       "Jump-Motion": "0.42",
-      "Speed Boost": "0.25",
+      "Speed Boost": "0.3",
       "NoSwing": "true",
       "NoSwing-Mode": "Packet",
       "NecessaryPlacement": "false",
@@ -652,10 +652,10 @@
     }
   },
   "Step": {
-    "toggled": false,
+    "toggled": true,
     "bypass": true,
     "values": {
-      "Mode": "Intave13",
+      "Mode": "AAC3.6.4",
       "StepHeight": "4.0"
     }
   },
@@ -671,7 +671,7 @@
     }
   },
   "TargetStrafe": {
-    "toggled": true,
+    "toggled": false,
     "bypass": false,
     "values": {
       "Mode": "Legit"
