@@ -1,6 +1,6 @@
 {
-  "Creator": "theBest_123,
-  "Date": 1651873188699,
+  "Creator": "theBest_123",
+  "Date": 1648651046937,
   "AirStuck": {
     "toggled": false,
     "bypass": false,
@@ -129,16 +129,6 @@
       "Intave13-Range": "10"
     }
   },
-  "Debug": {
-    "toggled": false,
-    "bypass": false,
-    "values": {}
-  },
-  "Debug2": {
-    "toggled": false,
-    "bypass": false,
-    "values": {}
-  },
   "Disabler": {
     "toggled": true,
     "bypass": true,
@@ -266,7 +256,7 @@
     }
   },
   "InvManager(WIP)": {
-    "toggled": false,
+    "toggled": true,
     "bypass": false,
     "values": {
       "Drop Delay": "100",
@@ -290,7 +280,7 @@
     }
   },
   "InventoryCleaner": {
-    "toggled": false,
+    "toggled": true,
     "bypass": true,
     "values": {
       "OpenedInventory": "true",
@@ -327,26 +317,26 @@
     "values": {
       "HitChance": "100",
       "OnlyWhenNotRayCast": "false",
-      "CPS": "20.04",
-      "Cps-Mode": "Smooth",
+      "CPS": "20.0",
+      "Cps-Mode": "Randomize",
       "SmoothCPS-AfterHit": "false",
-      "NoTimerAttack": "false",
+      "NoTimerAttack": "true",
       "SmoothCPS-CPS-Speed": "0.5",
       "SmoothCPS-RandomStrength": "0.85",
       "SmoothCPS-Randomizing": "false",
-      "Range": "3.4",
+      "Range": "3.43",
       "PreAim Range": "1.5",
-      "TargetMode": "Hybrid",
-      "PreferType": "Health",
-      "Switch Delay": "160",
-      "Criticals": "false",
-      "Criticals-Mode": "",
+      "TargetMode": "Switch",
+      "PreferType": "",
+      "Switch Delay": "0",
+      "Criticals": "true",
+      "Criticals-Mode": "Packet",
       "AutoBlock": "true",
-      "AutoBlock-Mode": "Intave",
+      "AutoBlock-Mode": "Verus",
       "Player": "true",
-      "Animals": "true",
-      "Villager": "true",
-      "Mobs": "true",
+      "Animals": "false",
+      "Villager": "false",
+      "Mobs": "false",
       "Ignore Death": "true",
       "Ignore Invisible": "true",
       "NoSwing": "false",
@@ -358,20 +348,20 @@
       "Pitch": "-90",
       "MouseFix": "true",
       "Mouse Speed": "5.0",
-      "MoveFix": "true",
-      "SilentMoveFix": "true",
+      "MoveFix": "false",
+      "SilentMoveFix": "false",
       "AttackDelay": "true",
       "RightAttackPacketOrdering": "true",
-      "ThroughWalls": "false",
-      "ThroughWalls Range": "3.0",
+      "ThroughWalls": "true",
+      "ThroughWalls Range": "3.63",
       "HitWhileRespawnScreen": "false",
       "NoInvAttack": "false",
       "CloseInventory": "false",
       "EatAttack": "false",
-      "UseAttack": "false",
+      "UseAttack": "true",
       "PreAimAttack": "false",
       "KeepCPS": "false",
-      "SprintReset": "false",
+      "SprintReset": "true",
       "Haze Range": "false",
       "Haze Range Adjustment": "0.5",
       "Max Haze Range": "1.0",
@@ -383,9 +373,9 @@
       "BestVector": "true",
       "Inaccuracy": "0.0",
       "LockView": "false",
-      "Necessary Rotations": "false",
-      "Necessary Mode": "",
-      "Near Rotate": "false",
+      "Necessary Rotations": "true",
+      "Necessary Mode": "Both",
+      "Near Rotate": "true",
       "Near Distance": "0.5",
       "Smooth Rotations": "false",
       "FOV": "180",
@@ -461,8 +451,8 @@
       "Speed": "1.0",
       "CanSprint": "true",
       "OnlySword": "false",
-      "Spoofing": "false",
-      "Spoof-Mode": ""
+      "Spoofing": "true",
+      "Spoof-Mode": "Intave13"
     }
   },
   "ObstacleSpeed": {
@@ -535,14 +525,14 @@
       "CanUp-Check": "false",
       "DownScaffold": "false",
       "WorldHeightCheck": "true",
-      "Tower": "false",
-      "Tower-Mode": "",
-      "Tower-Motion": "0.42",
-      "Tower-VerusDisabler": "false",
+      "Tower": "true",
+      "Tower-Mode": "Motion",
+      "Tower-Motion": "0.75",
+      "Tower-VerusDisabler": "true",
       "Tower-WhileMoving": "false",
       "No Speed Effect": "false",
       "Expand": "true",
-      "Expand Length": "2",
+      "Expand Length": "5",
       "All Direction Expand": "false",
       "Silent": "true",
       "Delayed back switch": "false",
@@ -627,7 +617,7 @@
     "toggled": false,
     "bypass": true,
     "values": {
-      "Mode": "Verus Hop b06052022",
+      "Mode": "Verus b3733 Float",
       "Timer-Speed": "1.0",
       "Legit-Strafing": "false",
       "Timer-Randomizing": "false",
@@ -698,7 +688,7 @@
     }
   },
   "VClip": {
-    "toggled": false,
+    "toggled": true,
     "bypass": true,
     "values": {
       "Mode": "Click"
